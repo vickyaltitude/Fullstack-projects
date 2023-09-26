@@ -101,15 +101,38 @@
         </fieldset>
         </main>
         <footer>
-           <section><form method="post">
-                <p><label name="FirstName" id="FirstName">First Name:</label>
-                <Input type="text" for="FirstName"></p>
-                <p><label name="lastname" id="lastname">Last Name:</label>
-                    <Input type="text" for="FirstName"></p>
-                <p><label name="password" id="password">Password:</label>
-                 <Input type="password" for="FirstName"></p>
-                 <p><label name="number" id="number">Telephone no:</label>
-                <Input type="tel" for="FirstName"></p>           
+           <section><form action="https://httpbin.org/get"  method="post">
+                <p><label for="FirstName">First Name:</label>
+                <Input type="text" name="FirstName" id="FirstName" placeholder="vignesh" autocomplete="on" required></p>
+                <p><label for="Lastname">Last Name:</label>
+                 <Input type="text" name="Lastname" id="Lastname" placeholder="vignesh" autocomplete="on"></p>
+                <p><label for="password">Password:</label>
+                <Input type="password" name="password" id="password" autocomplete="on" required></p>  
+                <p><label for="number">Phone num:</label>
+                <Input type="tel" name="number" id="number" placeholder="9188888888" autocomplete="on" required></p>
+                    <p><label for="number1">decade:</label>
+                        <Input type="number" name="number1" id="number1" min="1980" max="2023" value="2000"></p>
+
+                    <p>
+                        <label for="content">Fav content:</label>
+                        <select name="content" id="content">
+                           <optgroup label="x"> <option value="A.I">A.I</option>
+                            <option value="A.I">Machine learning</option></optgroup>
+                            <optgroup label="y"> <option value="A.I">full stack</option>
+                            <option value="A.I">front end</option></optgroup>
+                            <optgroup label="z"> <option value="A.I">back end</option>
+                            <option value="A.I">reactjs</option></optgroup>
+                        </select>
+                        <p><input type="radio" name="chicken" id="chicken" value="chicken">
+                        <lable for="chicken">chicken</lable></p>
+                        <p><input type="radio" name="chicken" id="chicken1" value="chicken">
+                            <lable for="chicken1">chicken</lable></p>
+                            <p><input type="radio" name="chicken" id="chicken2" value="chicken">
+                                <lable for="chicken2">chicken</lable></p>
+                       
+                     
+                    <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>  
+                    <button type="reset">reset</button>    
             </form>
         </section> 
         </footer>
