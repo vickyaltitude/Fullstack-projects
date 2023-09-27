@@ -1,7 +1,7 @@
 table{
     background-color: aquamarine;
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px red;
     
 }
 
@@ -9,6 +9,14 @@ p{
     color: black;
 }
 
+main{
+    background-color: aqua;
+}
+
 body{
     background-color: beige;
+}
+
+p{
+    font-size: 2rem;
 }
