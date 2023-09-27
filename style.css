@@ -1,22 +1,16 @@
-table{
-    background-color: aquamarine;
-    box-sizing: border-box;
-    border: 2px red;
-    
-}
-
-p{
-    color: black;
-}
-
-main{
-    background-color: aqua;
-}
-
 body{
-    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    background-color: #EBEFBF;
+    text-align: center;
+    color: #000000;
 }
 
-p{
-    font-size: 2rem;
+body header{
+    background-color: #CEB5A7;
+}
+
+#h1{
+    height: 50px;
+    background-color: #ADAABF;
 }
