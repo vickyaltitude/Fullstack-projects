@@ -14,3 +14,11 @@ body header{
     height: 50px;
     background-color: #ADAABF;
 }
+
+#sec{
+    font size: 1.5rem;
+    border: 2px solid red; 
+    margin: 20px;
+    padding: 50px;
+    Box-sizing: content-box;
+}
